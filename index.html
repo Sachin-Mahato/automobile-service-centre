@@ -4,12 +4,51 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Car Repair Centre</title>
     <link rel="stylesheet" href="./src/css/output.css">
   </head>
   <body>
-    <div id="app"></div>
-    <h1 class="bg-blue-800 text-white">heloo</h1>
+    <main class="text-white">
+      <!-- Hero section start -->
+      <header class="bg-Hero-img  bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center">
+        <h1 class="uppercase text-2xl">expert car repair <br>services certified</h1>
+        <p class="px-14 my-4">Well offering well-trained mechanics and excellent customer service, all at competitive price of vehicle repair at your home or place of work.</p>
+      <div class="">
+        <button type="button" class="bg-royal-blue uppercase py-2 px-4 rounded font-semibold">make appointment</button>
+        <div>
+          <div class="flex gap-4 items-center my-2">
+            <img src="./src/img/phone-car-service.svg" alt="phone icon">
+            <p class="font-semibold">123 456 789 0</p>
+          </div>
+          <p>24-Hours emergency assistance</p>
+        </div>
+      </div>
+      </header>
+      <!-- hero section end -->
+      <section class="bg-royal-blue flex flex-col gap-4">
+        <div class="flex gap-4 items-center">
+          <img src="./src/img/best-prices.png" alt="best price icon">
+          <article>
+            <h2 class="font-semibold">best prices</h2>
+            <p>All mechanical repair and services are available at affordable rates</p>
+          </article>
+        </div>
+        <div class="flex gap-4 items-center" >
+          <img src="./src/img/guarantee.png" alt="guarantee icon">
+          <article>
+            <h2 class="font-semibold">100% guarantee</h2>
+            <p>All our repair and services come with a guarantee period</p>
+          </article>
+        </div>
+        <div class="flex gap-4 items-center">
+          <img src="./src/img/certified.png" alt=" certified icon">
+          <article>
+            <h2 class="font-semibold">certified mechanics</h2>
+            <p>All of our mechanics are qualified and are regularly trained</p>
+          </article>
+        </div>
+      </section>
+    </main>
     <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>
